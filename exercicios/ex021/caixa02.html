@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        nav {
+            background-color: rgb(100, 100, 100);
+            padding: 3px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.505);
+            border-radius: 5px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(129, 125, 125);
+            padding: 3px 0px 3px 5px;
+            border-radius: 5px;
+            margin-bottom: 4px
+        }
+
+        aside > p {
+            margin: 0px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+         <h1>Meu Site</h1>
+         <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+         </nav>
+    </header>
+    <main>
+       <section id="assuntos">
+
+       </section>
+       <section id="noticias">
+        <article>
+            <h2>Noticia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis sed unde consequuntur iste quod, perspiciatis nisi ipsam tempora possimus doloribus, molestias, molestiae minus cupiditate repellendus harum porro qui culpa a.</p>
+            <aside>
+                <p>artigo escrito por Jose da Silva</p>
+            </aside>
+        </article>
+       </section>
+    </main>
+    <footer>
+            <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>
