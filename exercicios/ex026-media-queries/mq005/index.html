@@ -10,7 +10,8 @@
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <svg id="burguer" onclick="clickMenu()" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="100vw" fill="#ffffff"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -36,5 +37,14 @@
             Possimus dolore incidunt soluta iusto voluptatibus. Rem a tenetur consequuntur optio ad, harum incidunt, similique provident consequatur non, consectetur tempore qui eveniet aperiam soluta exercitationem dolorem totam ipsam necessitatibus! Sint!</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+           } else {
+            itens.style.display = 'block'
+           }
+        }
+    </script>
 </body>
 </html>

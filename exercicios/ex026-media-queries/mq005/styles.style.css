@@ -20,8 +20,19 @@ header > h1 {
     text-align: center;
 }
 
+svg#burguer {
+    background-color: rgb(58, 58, 58);
+    padding: 10px;
+    cursor: pointer;
+}
+
+svg#burguer:hover {
+    background-color: white;
+    fill: black;
+}
+
 menu {
-    display: block;
+    display: none;
 }
 
 menu > ul {
